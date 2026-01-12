@@ -1,7 +1,7 @@
 function createCard(title, cName, views, monthsOld, duration, thumbnail) {
   let viewstr;
   if (views < 1000) {
-    viewstr = views / 1000 + "K";
+    viewstr = views
   } else if (views > 1000000) {
     viewstr = views / 100000 + "M";
   } else {
@@ -21,3 +21,5 @@ function createCard(title, cName, views, monthsOld, duration, thumbnail) {
 
 document.querySelector(".container").innerHTML = document.querySelector(".container").innerHTML + html     
 }
+
+createCard("JavaScript - Selecting by Ids, Classes, and More | Sigma Web Development Course - Tutorial #68", "Priyanshu code", "30","30","20:00", "")

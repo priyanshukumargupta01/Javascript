@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .card {
+        display: flex;
+        height: 100px;
+        width: 700px;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 5px 2px 11px;
+        justify-content: center;
+        align-items: center;
+      }
+      img {
+        height: 90px;
+        border-radius: 10px;
+        padding: 5px;
+      }
+      h1 {
+        font-size: 15px;
+        padding: 5px;
+      }
+      p {
+        font-size: 10px;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+      .img {
+        position: relative;
+      }
+
+      .capsule {
+        position: absolute;
+        right: 9px;
+        bottom: 9px;
+        z-index: 5;
+        background-color: #030101b6;
+        color: white;
+        border-radius: 3px;
+        padding: 3px;
+        font-size: small;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="img">
+          <img
+            src="https://i.ytimg.com/vi/CO_DAXswOrc/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAbDeaG5nlgOfmj0aGOejvuL6680Q"
+            alt=""
+          />
+          <div class="capsule">22:56</div>
+        </div>
+        <div class="text">
+          <h1>
+            JavaScript - Selecting by Ids, Classes, and More | Sigma Web
+            Development Course - Tutorial #68
+          </h1>
+          <p>CodeWithHarry . 789k views . 2 year</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
