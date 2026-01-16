@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let num = Number(prompt("Enter a number"));
+
+      if (num <= 0) {
+        document.body.style.backgroundColor = "red";
+      } else if (num > 0 && num < 20) {
+        document.body.style.backgroundColor = "black";
+      } else if (num > 30 && num < 90) {
+        document.body.style.backgroundColor = "aqua";
+      } else {
+        document.body.style.backgroundColor = "green";
+      }
+    </script>
+  </body>
+</html>
