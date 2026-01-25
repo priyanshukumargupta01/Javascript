@@ -3,7 +3,7 @@ console.log("loop");
 /* for loop 
 let a = 1;
 for (let i = 0; i < 10; i++) { 
-    console.log(a + i);
+    console.log(a );
 }    
 */
 
@@ -19,7 +19,7 @@ for (const key in object) {
 */
  
  
-/* wfhile loop
+/* while loop
 let i  = 5;
 while (i<10) {
     console.log(i)
