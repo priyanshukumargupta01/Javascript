@@ -28,4 +28,7 @@ const year = now.getFullYear();
 const luckyNumber = Math.floor(Math.random()*100)+1;
 
 console.log(`today date is: ${day}/${month}/${year}`)
-console.log(`your lucky no. is: ${luckyNumber}`)
+console.log(`your lucky no. is: ${luckyNumber}`)   
+
+
+
