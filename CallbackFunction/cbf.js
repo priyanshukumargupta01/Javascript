@@ -9,12 +9,13 @@ console.log(
 );
  */
 
-function sqr(num, action){
-    return action(num)
+function sqr(num, action) {
+  return action(num);
 }
 
-const result = (s)=>{
-    return s *s;
-}
-hi = sqr(7 , result)
-console.log(hi)
+const result = (s) => {
+  return s * s;
+};
+
+let hi = sqr(7, result);
+console.log(hi);
