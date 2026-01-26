@@ -1,15 +1,15 @@
 
-console.log("iiiiiii") 
+// console.log("iiiiiii") 
  
-let a = document.querySelector(".main").lastElementChild.innerHTML ="last box"
+// let a = document.querySelector(".main").lastElementChild.innerHTML ="last box"
 
 
   //inserting new element ......
  let div = document.createElement("div")
  div.innerHTML ="this is a crated box.."
 div.setAttribute("class", "created")
-document.querySelector(".main").append(div)
-div.style.border="2px solid "
+document.querySelector(".main").insertBefore(div)
+document.querySelector(".created").style.border="2px solid"
 
 // div.addEventListener ("click", () => {
 //   div.style.maxWidth="10vw "
