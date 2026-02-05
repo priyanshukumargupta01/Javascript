@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+      }
+      input {
+        padding: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="input" placeholder="Enter Password" />
+
+    <script>
+      let message = document.getElementById("input");
+
+      function checkPassword() {
+        let password = message.value;
+
+        if (password.length < 8) {
+          alert("Password must be at least 8 characters");
+          return;
+        }
+
+        if (!/[A-Z]/.test(password)) {
+          alert("Add at least one uppercase letter");
+          return;
+        }
+
+        if (!/[a-z]/.test(password)) {
+          alert("Add at least one lowercase letter");
+          return;
+        }
+
+        if (!/[0-9]/.test(password)) {
+          alert("Add at least one number");
+          return;
+        }
+
+        alert("Password is valid ✅");
+      }
+      
+      checkPassword();
+    </script>
+  </body>
+</html>
