@@ -12,7 +12,7 @@ let object = {
     Name : "priyanshu",
     class : "b.tech"
 }
-for (const key in object) { 
+for (const key in  object) { 
     const element = object[key];
     console.log(key, element) 
 } 
