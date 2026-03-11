@@ -1,4 +1,4 @@
-console.log("loops");
+console.log("loop");
 
 /* for loop 
 let a = 1;
