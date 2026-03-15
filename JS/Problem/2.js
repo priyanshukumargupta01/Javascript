@@ -13,8 +13,7 @@ function doubleTrouble(arr) {
         } else {
             newArr.push(arr[i] * 2);
         }
-    }
-
+    } 
     return newArr;
 }
 
