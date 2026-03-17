@@ -1,7 +1,7 @@
 /* Array property
 
 let arr = [1, 2, 4, 6] 
-let arr2 = [9, 8, 6, 9, 3]
+let arr2 = [9, 8, 9, 6, 9, 3]
 console.log(arr)
 console.log(arr.length)
 console.log(arr[2])
