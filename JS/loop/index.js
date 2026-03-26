@@ -1,4 +1,4 @@
-console.log("loops");
+console.log("loop");
 
 /* for loop 
 let a = 1;
@@ -12,7 +12,7 @@ let object = {
     Name : "priyanshu",
     class : "b.tech"
 }
-for (const key in object) { 
+for (const key inn object) { 
     const element = object[key];
     console.log(key, element) 
 } 
