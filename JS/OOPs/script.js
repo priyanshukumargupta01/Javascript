@@ -4,7 +4,7 @@
 //   class: 5,
 //};
 
-// console.log(obj);
+//  console.log(obj);
 
 class Animal {
   constructor(name) {
