@@ -1,6 +1,6 @@
 let arr =[3, 5,4, 6, 2]
 
-let [a, ,c, ...rest] =arr ;
+let [a,c, ...rest] =arr ;
 
 console.log(a,rest);
 
