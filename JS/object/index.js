@@ -22,7 +22,7 @@ for (const element in obj) {
 const now = new Date();
 
 const day = now.getDate();
-const month = now.getMonth()+1 ;
+const month = now.getMonth()+1   ;
 const year = now.getFullYear();
 
 const luckyNumber = Math.floor(Math.random()*100)+1;
