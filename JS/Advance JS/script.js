@@ -1,6 +1,6 @@
 async function sleep() {
   return new Promise((resolve, reject) => {
-    setTimeout(() => {
+    setTimeout(() => { 
       resolve(45);
     }, 3000);
   });
