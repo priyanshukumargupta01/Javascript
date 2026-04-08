@@ -13,5 +13,5 @@ function reverse(str) {
   console.log(str + rev);
 }
 
-reverse("Priyanshu");
+reverse("Priyanshu"); 
   
