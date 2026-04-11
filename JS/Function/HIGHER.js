@@ -6,6 +6,12 @@ function  a(b){
 
 function sayHi(){
   console.log("hiiiiiiiiiii")
+  console.log("hiiiiiiiiiii")
+  console.log("hiiiiiiiiiii")
+  console.log("hiiiiiiiiiii")
+  console.log("hiiiiiiiiiii")
+  console.log("hiiiiiiiiiii")
+  console.log("hiiiiiiiiiii")
 }
 
 
