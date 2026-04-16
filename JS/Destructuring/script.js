@@ -26,3 +26,18 @@ let obj2 ={
 
 }
 console.log({...obj2, name :"hk"})
+
+const person = {
+  name: "Priyanshu",
+  age: 20,
+  city: "Ludhiana"
+};
+
+// normal way
+const name1 = person.name;
+
+// destructuring
+const { name, age, city } = person;
+
+console.log(name); // Priyanshu
+console.log(age);  // 20
