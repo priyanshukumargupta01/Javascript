@@ -29,4 +29,18 @@ let fun = (a, b) => a + b;
 }
 
 
- cd
+ function checkEven(num) {
+  if (num % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
+
+console.log(checkEven(4));  
+
+function square(num) {
+  return num * num;
+}
+
+console.log(square(5));  
