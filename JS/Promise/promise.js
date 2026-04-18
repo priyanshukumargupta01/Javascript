@@ -18,7 +18,7 @@ async function main() {
   console.log("happy");
   console.log("happy");
 
-  let data = await getdata(); // await lagaya
+  let data = await getdata(); // await 
   console.log(data);
 
   console.log("happy");
