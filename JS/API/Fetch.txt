@@ -1,0 +1,8 @@
+The Fetch API is used to make HTTP requests (GET, POST, PUT, DELETE).
+It returns a Promise.
+Used to get data from a server or send data.
+
+fetch(url)
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.log(error));
