@@ -1,7 +1,12 @@
-fetch("https://api.ipgeolocation.io/timezone?apiKey=free")
-  .then(res => res.json())
-  .then(data => {
-    let date = data.datetime.split("T")[0];
-    console.log("Today Date:", date);
-  })
-  .catch(err => console.log(err));
+async function getDate() {
+  try {
+    const res = await fetch("https://timeapi.io/api/Time/current/zone?timeZone=Asia/Kolkata");
+    const data = await res.json();
+
+    console.log("Today Date:", data.date);
+  } catch (error) {
+    console.log("Error:", error.message);
+  }
+}
+
+getDate();
