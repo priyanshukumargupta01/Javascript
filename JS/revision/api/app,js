@@ -1,0 +1,23 @@
+const btn = document.querySelector(".btn");
+
+btn.addEventListener("click", async () => {
+
+    const URL = "https://timeapi.io/api/Time/current/zone?timeZone=Asia/Kolkata";
+
+    try {
+
+        let response = await fetch(URL);
+
+        let data = await response.json();
+
+        console.log(data);
+
+        document.getElementById("time").innerText = data.time;
+
+    } catch (error) {
+
+        console.log("Error:", error);
+
+    }
+
+});
